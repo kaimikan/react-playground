@@ -1,0 +1,24 @@
+.cv-form h1 {
+  color: #5e72e4;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #5e72e4;
+  padding-bottom: 5px;
+}
+
+.cv-form section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,44 @@
+.experience-section {
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.experience-section input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.experience-section p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.experience-section strong {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Two-column grid layout */
+.experience-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.experience-section input {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    grid-template-columns: 1fr; /* Stack on small screens */
+  }
+}
