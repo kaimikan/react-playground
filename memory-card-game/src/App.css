@@ -1,0 +1,15 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.message {
+  font-size: 1.25rem;
+  color: #d9534f; /* Default red for wrong guess */
+  margin-bottom: 20px;
+}
+
+.message.success {
+  color: #5cb85c; /* Green for success */
+}
